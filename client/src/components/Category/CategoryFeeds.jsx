@@ -43,11 +43,11 @@ export const CategoryFeeds = () => {
               </Link>
             ))}
           </div>
-          <div className=" px-10 pt-5 text-xl flex flex-col shadow-lg font-medium items-center border-2 border-black rounded pb-5 ">
+          <div className=" px-10 pt-5 mb-10 text-xl flex flex-col shadow-lg font-medium items-center border-2 border-black rounded pb-5 ">
             <div className="text-3xl ">
               {state ? state.name : "Latest Feeds"}
             </div>
-            <div className="h-[70vh] w-[45vw] flex flex-col ">
+            <div className=" w-[60vw] flex flex-col ">
               {categoryBasedFeeds?.feeds?.map((e) => (
                 <h3 key={e._id} className="py-1">
                   <Link to={`/feeds/${e._id}`}>{e.title}</Link>
