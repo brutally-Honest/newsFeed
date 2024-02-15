@@ -31,9 +31,9 @@ export const SingleFeed = () => {
             <div className=" p-2 border-[1.5px] bg-white rounded w-fit ">
               <img
                 src={feed?.image}
-                width={600}
-                height={600}
-                className="border-[2px] border-black rounded object-cover h-[500px]"
+                width={500}
+                height={400}
+                className="border-[2px] border-black rounded object-cover h-[400px]"
               />
             </div>
           </div>
